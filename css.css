@@ -1,0 +1,112 @@
+
+  
+  .centr{
+    text-align: center;
+    background-color:black;
+    height: 100vh;
+    
+  }
+  
+  .blockImages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: /* Your background color here */;
+    height: 100vh;
+}
+
+.imageRow {
+    display: flex; /* Obrázky budou vedle sebe */
+    align-items: center;
+}
+
+.OneImage {
+    display: flex;
+    flex-direction: column; /* Text bude pod obrázkem */
+    align-items: center;
+    margin-right: 20px; /* Odstup mezi bloky obrázku */
+}
+
+.images {
+    border: 10px silver double;
+    max-height: 200px;
+}
+a {
+    color: inherit; /* Inherituje barvu textu z nadřazeného prvku */
+    text-decoration: none; /* Ruší podtržení */
+}
+
+
+
+  nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+body > header {
+    height: 100px;
+    width: 100%;
+    background: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+nav ul a {
+    color: white;
+    padding: 20px 25;
+    border-radius: 10%;
+    font-family: "audrey";
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul a:hover, .aktivni a {
+    background-color: white;
+    color: black;
+}
+nav ul li {
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 4.3em;
+}
+#about{
+    background-image: url('img/newColection/image0.jpeg');
+    height: 722px;
+    max-width: 1175px;
+    margin: 0 auto;
+    text-align: center;
+}
+#NewColection{
+    background-image: url('img/newColection/image0.jpeg');
+    height: 722px;
+    max-width: 1175px;
+    margin: 0 auto;
+    text-align: center;
+}
+.TextLeft{
+    width: 22%;
+    padding: 3%;    
+    display: flex;
+    flex-direction: column; /* Text bude pod obrázkem */
+    align-content: start;
+    
+}
+.TextCentr{
+    width: 22%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column; /* Text bude pod obrázkem */
+    align-items: center;
+}
+.TextRight{
+    width: 22%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column; /* Text bude pod obrázkem */
+    align-items: center;
+}
